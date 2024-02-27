@@ -1,0 +1,54 @@
+
+/* Styles for products */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center
+}
+
+.product h3 {
+    margin: 0;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: auto; /* Move the button to the right by utilizing margin-left: auto */
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for cart */
+#cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart p {
+    margin: 0;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    margin-bottom: 5px;
+}
+
+.product img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space between the image and the button */
+}
+

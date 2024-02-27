@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Your HTML content here -->
+    
+    <div id="products">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="Teriyaki.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Teriyaki</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button type="button" class="btn btn-primary" data-product-id="1" data-price="20">Add to cart</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="One pee.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">One pee</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <button type="button" class="btn btn-primary" data-product-id="2" data-price="100">Add to cart</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Turkey leg.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Turkey leg</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <button type="button" class="btn btn-primary" data-product-id="3" data-price="999">Add to cart</button>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <h2>Cart</h2>
+    <div id="cart">
+        <p>No items in cart.</p>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
